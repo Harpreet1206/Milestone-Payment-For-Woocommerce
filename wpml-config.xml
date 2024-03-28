@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>	
+		<key name="awcdp_text_settings">
+			<key name="pay_deposit_text" />
+			<key name="pay_full_text" />
+			<key name="deposit_text" />
+			<key name="to_pay_text" />
+			<key name="future_payment_text" />
+			<key name="deposit_amount_text" />
+		</key>
+	</admin-texts>
+</wpml-config>

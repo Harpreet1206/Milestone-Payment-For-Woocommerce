@@ -1,0 +1,87 @@
+.awcdp-deposits-wrapper .awcdp-deposits-option {
+	background: #fff;
+	border-radius: 7px;
+	width: 326px;
+	
+	margin-bottom: 20px
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio {
+	padding: 3px;
+
+	width: 49%;
+	float: left;
+
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio] {
+	position: absolute;
+	opacity: 0
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio]+.awcdp-radio-label {
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio]+.awcdp-radio-label:before {
+	content: "";
+	background: #fff;
+	border-radius: 100%;
+	border: 1px solid #bfbfbf;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -0.2em;
+	margin-right: 1em;
+	vertical-align: bottom;
+	cursor: pointer;
+	text-align: center;
+	transition: all 250ms ease
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio]:checked+.awcdp-radio-label:before {
+	background-color: #2F80ED;
+	box-shadow: inset 0 0 0 4px #fff
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio]:focus+.awcdp-radio-label:before {
+	outline: none;
+	border-color: #2F80ED
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio]:disabled+.awcdp-radio-label:before {
+	box-shadow: inset 0 0 0 4px #fff;
+	border-color: #bfbfbf;
+	background: #bfbfbf
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio input[type=radio]+.awcdp-radio-label:empty:before {
+	margin-right: 0
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio .awcdp-deposits-description {
+	margin-left:1px;
+	font-size: 13px;
+	line-height: 15px;
+	color: #E48128;
+	font-weight: 400;
+	margin-top: 3px
+}
+
+.awcdp-deposits-wrapper .awcdp-deposits-option .awcdp-radio .awcdp-deposits-description #awcdp-deposit-amount {
+	font-weight: bold
+}
+
+.mil_price_table{  border-collapse: collapse; }
+.mil_price_table td, .mil_price_table th
+{ 
+	padding: 5px 5px !important; 
+	background-color:#fff !important; 
+	border:0.5px solid #ececec !important;   
+}
+.variation-{ display:none !important}
